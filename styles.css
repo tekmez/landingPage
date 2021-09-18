@@ -1,0 +1,140 @@
+
+body{
+    margin: 0;
+}
+/*-------------------------------------------------------------------------*/
+.top-section{
+    background-color: #1f2937;
+    padding: 50px 100px 50px 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    line-height: 2em;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.information{
+    margin-top: 2em;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 25em;
+}
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 1em;
+    width: 7em;
+    height: 2em;
+    font-size: 1em;
+}
+
+.header-img{
+    background-color: gray;
+    height: 11em;
+    width: 40em;
+    align-self: flex-end;
+    color: #e5e7eb;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 11em;
+}
+/*----------------------------------------------------------------*/
+.h2{
+    margin-top: 5em;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 5px solid #3882f6;
+    border-radius: 1em;
+    width: 10em;
+    height: 10em;
+}
+.text-container{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+}
+.text{
+    width: 10em;
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+/*-----------------------------------------------------------------*/
+.quote{
+    margin-top: 5em;
+    background-color: #e5e7eb;
+    width: auto;
+    height: 10em;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-text{
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4em;
+}
+/*-----------------------------------------------------------------*/
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+.secondary{
+    color: #e5e7eb;
+}
+
+/*----------------------------------------------------------------*/
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
